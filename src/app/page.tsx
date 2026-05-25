@@ -151,7 +151,7 @@ export default function Home() {
                     <span className="text-3xl font-black text-slate-900 dark:text-white">7,500</span>
                     <span className="text-slate-500 dark:text-slate-400 mr-1 text-sm font-semibold">جنيه مصري</span>
                   </div>
-                  <p className="text-emerald-600 dark:text-emerald-400 font-semibold mb-2">ترخيص سنوي</p>
+                  <p className="text-emerald-600 dark:text-emerald-400 font-semibold mb-2">اشتراك شهري</p>
                   <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">(تشمل 1500 حق السيستم + 6000 تشغيل البوت بدون داشبورد)</p>
                 </div>
                 <ul className="space-y-4 mb-8 flex-1">
@@ -190,7 +190,7 @@ export default function Home() {
                     <span className="text-3xl font-black text-white">9,500</span>
                     <span className="text-slate-400 mr-1 text-sm font-semibold">جنيه مصري</span>
                   </div>
-                  <p className="text-emerald-400 font-semibold mb-2">ترخيص سنوي</p>
+                  <p className="text-emerald-400 font-semibold mb-2">اشتراك شهري</p>
                   <p className="text-xs text-slate-400 leading-relaxed">(تشمل 1500 حق السيستم + 8000 تشغيل البوت + لوحة التحكم الكاملة)</p>
                 </div>
                 <ul className="space-y-4 mb-8 flex-1">
