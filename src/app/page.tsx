@@ -113,7 +113,7 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">باقات تناسب حجم عملك</h2>
               <p className="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">اختر الباقة الأنسب واستثمر في مستقبل مبيعاتك.</p>
             </div>
-            
+
             <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
               {/* Plan 1: Free Trial */}
               <div className="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 flex flex-col hover:border-slate-300 dark:hover:border-slate-700 transition-colors">
@@ -122,7 +122,8 @@ export default function Home() {
                   <div className="mb-2">
                     <span className="text-3xl font-black text-slate-900 dark:text-white">مجاناً</span>
                   </div>
-                  <p className="text-emerald-600 dark:text-emerald-400 font-semibold mb-4">لمدة أسبوعين (14 يوم)</p>
+                  <p className="text-emerald-600 dark:text-emerald-400 font-semibold mb-2">لمدة 7 أيام</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed font-medium">مبلغ تأمين للجدية 200 ريال (يُخصم من أول فاتورة اشتراك)</p>
                 </div>
                 <ul className="space-y-4 mb-8 flex-1">
                   <li className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
@@ -138,21 +139,21 @@ export default function Home() {
                     <span>دعم فني أساسي</span>
                   </li>
                 </ul>
-                <a href="https://wa.me/201028086887?text=أهلاً%20Botify-AI،%20أريد%20تفعيل%20الباقة%20التجريبية%20المجانية%20لمدة%20أسبوعين%20لشركتي" target="_blank" rel="noopener noreferrer" className="w-full block text-center py-3.5 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors">
+                <a href="https://wa.me/201028086887?text=أهلاً%20Botify-AI،%20أريد%20تفعيل%20الباقة%20التجريبية%20المجانية%20لمدة%207%20أيام%20لشركتي" target="_blank" rel="noopener noreferrer" className="w-full block text-center py-3.5 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors">
                   ابدأ تجربتك المجانية الآن
                 </a>
               </div>
-              
+
               {/* Plan 2: Pro Plan */}
               <div className="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-3xl p-8 flex flex-col hover:border-slate-300 dark:hover:border-slate-700 transition-colors">
                 <div className="mb-8">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">الباقة البرو (Pro Plan)</h3>
                   <div className="mb-2">
-                    <span className="text-3xl font-black text-slate-900 dark:text-white">7,500</span>
-                    <span className="text-slate-500 dark:text-slate-400 mr-1 text-sm font-semibold">جنيه مصري</span>
+                    <span className="text-3xl font-black text-slate-900 dark:text-white">800</span>
+                    <span className="text-slate-500 dark:text-slate-400 mr-1 text-sm font-semibold">ر.س</span>
                   </div>
                   <p className="text-emerald-600 dark:text-emerald-400 font-semibold mb-2">اشتراك شهري</p>
-                  <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">(تشمل 1500 حق السيستم + 6000 تشغيل البوت بدون داشبورد)</p>
+                  <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">حل مثالي للشركات العقارية الناشئة والمتوسطة</p>
                 </div>
                 <ul className="space-y-4 mb-8 flex-1">
                   <li className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
@@ -165,20 +166,20 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-3 text-slate-700 dark:text-slate-300">
                     <CheckCircle size={20} className="text-emerald-500 shrink-0 mt-0.5" />
-                    <span>معالجة ملفات العقارات</span>
+                    <span>حتى 500 محادثة شهرياً</span>
                   </li>
                   <li className="flex items-start gap-3 text-slate-400 dark:text-slate-500">
                     <X size={20} className="text-slate-400 dark:text-slate-500 shrink-0 mt-0.5" />
-                    <span className="line-through">بدون لوحة تحكم Dashboard</span>
+                    <span className="line-through">بدون لوحة تحكم (Dashboard)</span>
                   </li>
                 </ul>
-                <a href="https://wa.me/201028086887?text=أهلاً%20Botify-AI،%20أريد%20حجز%20الباقة%20البرو%20(بدون%20داشبورد)%20لبدء%20أتمتة%20المبيعات" target="_blank" rel="noopener noreferrer" className="w-full block text-center py-3.5 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors">
+                <a href="https://wa.me/201028086887?text=أهلاً%20Botify-AI،%20أريد%20حجز%20الباقة%20البرو%20لبدء%20أتمتة%20المبيعات" target="_blank" rel="noopener noreferrer" className="w-full block text-center py-3.5 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-300 dark:hover:bg-slate-700 transition-colors">
                   احجز باقة البرو الآن
                 </a>
               </div>
 
               {/* Plan 3: Pro Max Plan */}
-              <div className="bg-slate-900 dark:bg-slate-900 border border-emerald-500/50 rounded-3xl p-8 flex flex-col relative shadow-xl shadow-emerald-500/10">
+              <div className="bg-slate-900 dark:bg-slate-900 border border-emerald-500/50 rounded-3xl p-8 flex flex-col relative shadow-xl shadow-emerald-500/10 hover:shadow-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
                 <div className="absolute top-0 right-8 -translate-y-1/2">
                   <span className="bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider flex items-center gap-1">
                     🔥 الأكثر طلباً
@@ -187,11 +188,11 @@ export default function Home() {
                 <div className="mb-8">
                   <h3 className="text-xl font-bold text-white mb-2">باقة البرو ماكس (Pro Max Plan)</h3>
                   <div className="mb-2">
-                    <span className="text-3xl font-black text-white">9,500</span>
-                    <span className="text-slate-400 mr-1 text-sm font-semibold">جنيه مصري</span>
+                    <span className="text-3xl font-black text-white">1,500</span>
+                    <span className="text-slate-400 mr-1 text-sm font-semibold">ر.س</span>
                   </div>
                   <p className="text-emerald-400 font-semibold mb-2">اشتراك شهري</p>
-                  <p className="text-xs text-slate-400 leading-relaxed">(تشمل 1500 حق السيستم + 8000 تشغيل البوت + لوحة التحكم الكاملة)</p>
+                  <p className="text-xs text-slate-400 leading-relaxed">الخيار المتكامل للشركات العقارية الرائدة</p>
                 </div>
                 <ul className="space-y-4 mb-8 flex-1">
                   <li className="flex items-start gap-3 text-slate-200">
@@ -200,18 +201,18 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-3 text-slate-200">
                     <CheckCircle size={20} className="text-emerald-400 shrink-0 mt-0.5" />
-                    <span className="leading-snug">لوحة التحكم التنفيذية الشاملة (Executive Dashboard)</span>
+                    <span className="leading-snug">لوحة تحكم تنفيذية شاملة (Dashboard)</span>
                   </li>
                   <li className="flex items-start gap-3 text-slate-200">
                     <CheckCircle size={20} className="text-emerald-400 shrink-0 mt-0.5" />
-                    <span className="leading-snug">تحليل اهتمامات ومناطق العملاء لايف من قاعدة البيانات</span>
+                    <span className="leading-snug">تقارير ذكية وتحليل لبيانات العملاء</span>
                   </li>
                   <li className="flex items-start gap-3 text-slate-200">
                     <CheckCircle size={20} className="text-emerald-400 shrink-0 mt-0.5" />
-                    <span className="leading-snug">إدارة كاملة للمخزن الفوري</span>
+                    <span className="leading-snug">حتى 1000 محادثة شهرياً</span>
                   </li>
                 </ul>
-                <a href="https://wa.me/201028086887?text=أهلاً%20Botify-AI،%20أريد%20حجز%20الباقة%20البرو%20ماكس%20الشاملة%20(البوت%20+%20الداشبورد)%20لشركتي%20العقارية" target="_blank" rel="noopener noreferrer" className="w-full block text-center py-3.5 rounded-xl bg-gradient-to-l from-emerald-600 to-emerald-400 text-white font-bold shadow-lg hover:scale-105 transition-transform duration-300">
+                <a href="https://wa.me/201028086887?text=أهلاً%20Botify-AI،%20أريد%20حجز%20الباقة%20البرو%20ماكس%20الشاملة%20لشركتي%20العقارية" target="_blank" rel="noopener noreferrer" className="w-full block text-center py-3.5 rounded-xl bg-gradient-to-l from-emerald-600 to-emerald-400 text-white font-bold shadow-lg hover:scale-105 transition-transform duration-300">
                   احجز باقة البرو ماكس الآن
                 </a>
               </div>
