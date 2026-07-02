@@ -18,7 +18,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-4">
             <ThemeToggle />
-            <Link href="https://dashboard-botify-ai.netlify.app" target="_blank" className="hidden md:flex items-center justify-center px-5 py-2.5 rounded-xl border-2 border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors">
+            <Link href="https://botify-agents-dashboard.vercel.app/" target="_blank" className="hidden md:flex items-center justify-center px-5 py-2.5 rounded-xl border-2 border-slate-200 dark:border-slate-800 text-slate-900 dark:text-white font-bold hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors">
               لوحة التحكم
             </Link>
             <Link href="#pricing" className="hidden md:flex items-center justify-center px-6 py-2.5 rounded-xl bg-gradient-to-l from-emerald-600 to-emerald-400 text-white font-bold shadow-lg shadow-emerald-500/30 hover:scale-105 transition-all duration-300">
