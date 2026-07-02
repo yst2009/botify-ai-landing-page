@@ -9,28 +9,29 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  title: "Botify-AI | أتمتة تسويق ومبيعات العقارات عبر الواتساب",
-  description: "ضاعف مبيعات شركتك العقارية وأتمت ردود الواتساب بنسبة 100%. نظام Botify-AI يدرب مساعد ذكي يقرأ الكتالوجات ويؤهل العملاء تلقائياً.",
+  title: "Botify AI | Advanced AI Sales Agent for WhatsApp Automation",
+  description: "Automate your customer acquisition and sales workflows with Botify AI, the leading multi-tenant AI sales agent platform seamlessly integrated with WhatsApp and Supabase.",
+  keywords: ["AI Sales Agent", "WhatsApp Automation", "SaaS", "Real Estate AI", "Automated Sales Bot", "Botify AI"],
   openGraph: {
-    title: "Botify-AI | أتمتة تسويق ومبيعات العقارات عبر الواتساب",
-    description: "ضاعف مبيعات شركتك العقارية وأتمت ردود الواتساب بنسبة 100%. نظام Botify-AI يدرب مساعد ذكي يقرأ الكتالوجات ويؤهل العملاء تلقائياً.",
+    title: "Botify AI | Advanced AI Sales Agent for WhatsApp Automation",
+    description: "Automate your customer acquisition and sales workflows with Botify AI, the leading multi-tenant AI sales agent platform seamlessly integrated with WhatsApp and Supabase.",
     url: "https://botify-ai.com",
-    siteName: "Botify-AI",
+    siteName: "Botify AI",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "منصة Botify-AI لأتمتة العقارات",
+        alt: "Botify AI - Advanced AI Sales Agent",
       },
     ],
-    locale: "ar_EG",
+    locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Botify-AI | أتمتة تسويق ومبيعات العقارات عبر الواتساب",
-    description: "ضاعف مبيعات شركتك العقارية وأتمت ردود الواتساب بنسبة 100%. نظام Botify-AI يدرب مساعد ذكي يقرأ الكتالوجات ويؤهل العملاء تلقائياً.",
+    title: "Botify AI | Advanced AI Sales Agent for WhatsApp Automation",
+    description: "Automate your customer acquisition and sales workflows with Botify AI, the leading multi-tenant AI sales agent platform seamlessly integrated with WhatsApp and Supabase.",
     images: ["/og-image.jpg"],
   },
 };

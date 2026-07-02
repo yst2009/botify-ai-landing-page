@@ -14,6 +14,7 @@ export function Header() {
               <Link href="#features" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">المميزات</Link>
               <Link href="#how-it-works" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">طريقة العمل</Link>
               <Link href="#pricing" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">الأسعار</Link>
+              <Link href="#faq" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">الأسئلة الشائعة</Link>
             </nav>
           </div>
           <div className="flex items-center gap-4">

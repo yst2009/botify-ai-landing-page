@@ -219,6 +219,50 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* F. FAQ Section */}
+        <section id="faq" className="py-24 bg-slate-50 dark:bg-slate-900/30 border-t border-slate-200 dark:border-slate-800">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">Frequently Asked Questions</h2>
+              <p className="text-slate-600 dark:text-slate-400">Everything you need to know about integrating our AI Sales Agent into your real estate workflow.</p>
+            </div>
+            
+            <div className="space-y-6 text-left" dir="ltr">
+              {/* FAQ Item 1 */}
+              <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">How does the AI Sales Agent handle complex real estate inquiries?</h3>
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                  Our AI Sales Agent is specifically trained for real estate brokers and developers. It leverages advanced Natural Language Processing to analyze your property catalogs, understand client requirements—such as budget, preferred locations, and amenities—and provide highly accurate, contextual responses instantly via WhatsApp automation.
+                </p>
+              </div>
+              
+              {/* FAQ Item 2 */}
+              <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Can the automated sales bot qualify leads before human intervention?</h3>
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                  Absolutely. The AI acts as your tireless frontline qualifier. It engages prospects by asking targeted, high-intent questions. Once a lead is fully qualified and ready to schedule a viewing or request a contract, the bot seamlessly hands over the complete context to your human sales team.
+                </p>
+              </div>
+
+              {/* FAQ Item 3 */}
+              <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">How quickly can we deploy WhatsApp automation for our agency?</h3>
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                  Integration is rapid and hassle-free. Thanks to our robust SaaS architecture, we can connect your official business WhatsApp API and sync your property listings in under 48 hours, immediately supercharging your customer acquisition workflows.
+                </p>
+              </div>
+
+              {/* FAQ Item 4 */}
+              <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Is our client and property data secure with Botify AI?</h3>
+                <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
+                  Yes, data security is our top priority. We utilize enterprise-grade infrastructure to ensure that all conversational logs, lead details, and proprietary real estate data remain strictly confidential and fully isolated within your dedicated tenant environment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
