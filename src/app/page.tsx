@@ -145,7 +145,7 @@ export default function Home() {
 
               {/* FAQ Item 4 */}
               <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Is our client and property data secure with Botify AI?</h3>
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-3">Is our client and property data secure with Botify-Agents?</h3>
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
                   Yes, data security is our top priority. We utilize enterprise-grade infrastructure to ensure that all conversational logs, lead details, and proprietary real estate data remain strictly confidential and fully isolated within your dedicated tenant environment.
                 </p>
