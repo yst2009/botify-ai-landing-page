@@ -45,7 +45,7 @@ export function HeroActions() {
                   <span className="text-xl">✨</span>
                 </div>
                 <div>
-                  <h3 className="font-bold text-sm">Botify-AI Assistant</h3>
+                  <h3 className="font-bold text-sm">Botify Agents Assistant</h3>
                   <p className="text-[10px] text-emerald-100/80">شغال 24 ساعة</p>
                 </div>
               </div>

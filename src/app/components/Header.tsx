@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-8">
             <Link href="/" className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">
-              Botify-AI <span className="text-emerald-500">✨</span>
+              Botify Agents <span className="text-emerald-500">✨</span>
             </Link>
             <nav className="hidden md:flex items-center gap-6">
               <Link href="#features" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">المميزات</Link>
