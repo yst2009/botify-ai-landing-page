@@ -1,12 +1,23 @@
 import Link from "next/link";
+import Image from "next/image";
+import botifyLogo from "./Botify Agents.jpg";
 
 export function Footer() {
   return (
     <footer className="bg-slate-50 dark:bg-slate-950 py-12 border-t border-slate-200 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-2xl font-black text-slate-900 dark:text-white tracking-tight mb-4">
-          Botify Agents <span className="text-emerald-500">✨</span>
-        </h2>
+        <div className="flex items-center justify-center gap-3 mb-4">
+          <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
+            <Image 
+              src={botifyLogo} 
+              alt="Botify Agents" 
+              className="h-full w-full object-contain transition-all duration-300 mix-blend-multiply dark:invert dark:mix-blend-screen dark:brightness-150 dark:contrast-125"
+            />
+          </div>
+          <h2 className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+            Botify Agents
+          </h2>
+        </div>
         <p className="text-slate-500 dark:text-slate-400 mb-8 max-w-lg mx-auto">
           أول سيلز عقارات آلي يعمل 24 ساعة على الواتساب بذكاء خارق.
         </p>

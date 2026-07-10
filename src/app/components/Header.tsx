@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ThemeToggle } from "./ThemeToggle";
+import botifyLogo from "./Botify Agents.jpg";
 
 export function Header() {
   return (
@@ -7,8 +9,16 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-8">
-            <Link href="/" className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">
-              Botify Agents <span className="text-emerald-500">✨</span>
+            <Link href="/" className="flex items-center gap-3 text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+              <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
+                <Image 
+                  src={botifyLogo} 
+                  alt="Botify Agents" 
+                  priority
+                  className="h-full w-full object-contain transition-all duration-300 mix-blend-multiply dark:invert dark:mix-blend-screen dark:brightness-150 dark:contrast-125"
+                />
+              </div>
+              Botify Agents
             </Link>
             <nav className="hidden md:flex items-center gap-6">
               <Link href="#features" className="text-sm font-semibold text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">المميزات</Link>
